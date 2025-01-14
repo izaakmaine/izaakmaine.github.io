@@ -35,6 +35,8 @@ params:
     displayCopyright: true
     displayPoweredBy: false     
     
-
+services:
+  googleAnalytics:
+    ID: G-4X4ZM5ZRJ4
     
    
