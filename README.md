@@ -1,6 +1,6 @@
 # Discourses of Christ and the Apostles
 
-Does not accept PRs, feel free to fork at your own leisure or reflection.
+Does not accept PRs, feel free to fork.
 
 ## License
 
