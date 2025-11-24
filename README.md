@@ -4,5 +4,5 @@ Does not accept PRs, feel free to fork at your own leisure or reflection.
 
 ## License
 
-[GPLv3](https://www.gnu.org/licenses/gpl-3.0.txt)
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
