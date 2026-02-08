@@ -3,6 +3,9 @@ title: The Wedding at Cana
 weight: 1
 ---
 
+{{< slideshow path="images/01-the-wedding-at-cana" >}}
+
+
 The afternoon sun cast long shadows across the narrow streets of Cana as Mary made her way through the bustling village. The sounds of celebration already filled the air - tambourines jingling, voices raised in song, and the excited chatter of guests arriving for the wedding feast. She smiled, remembering her own wedding celebrations so many years ago. But today, her thoughts were primarily on her son, Jesus, who had recently begun gathering followers around him. She had watched with quiet pride as these men - fishermen, tax collectors, ordinary people - were drawn to his extraordinary presence.
 
 As she approached the home where the celebrations would take place, she could see Jesus standing in conversation with several of his new disciples. John, the youngest among them, listened with rapt attention while Peter's brother Andrew gestured animatedly about something. Her son's face bore that familiar expression of patient wisdom that still sometimes caught her off guard - when had her little boy become this man who spoke with such authority?
