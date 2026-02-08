@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Discourses of Christ and the Apostles – Articles</title>
-    <link>http://localhost:1313/discourses/docs/</link>
+    <link>http://localhost:1313/docs/</link>
     <description>Recent content in Articles on Discourses of Christ and the Apostles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	  <atom:link href="http://localhost:1313/discourses/docs/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,14 +16,278 @@
     
     <item>
       <title>The Wedding at Cana</title>
-      <link>http://localhost:1313/discourses/docs/01-the-wedding-at-cana/</link>
+      <link>http://localhost:1313/docs/01-the-wedding-at-cana/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/01-the-wedding-at-cana/</guid>
+      <guid>http://localhost:1313/docs/01-the-wedding-at-cana/</guid>
       <description>
         
         
-        &lt;p&gt;The afternoon sun cast long shadows across the narrow streets of Cana as Mary made her way through the bustling village. The sounds of celebration already filled the air - tambourines jingling, voices raised in song, and the excited chatter of guests arriving for the wedding feast. She smiled, remembering her own wedding celebrations so many years ago. But today, her thoughts were primarily on her son, Jesus, who had recently begun gathering followers around him. She had watched with quiet pride as these men - fishermen, tax collectors, ordinary people - were drawn to his extraordinary presence.&lt;/p&gt;
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;slideshow-container&#34; id=&#34;slideshow-c24e436f&#34;&gt;
+    &lt;div class=&#34;slides-wrapper&#34;&gt;
+        
+        &lt;div class=&#34;slide&#34;&gt;
+            &lt;img src=&#34;http://localhost:1313/images/01-the-wedding-at-cana/1.png&#34; alt=&#34;1.png&#34; onclick=&#34;toggleFullscreen(&#39;c24e436f&#39;)&#34;&gt;
+            &lt;div class=&#34;caption&#34;&gt;1 / 2&lt;/div&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;slide&#34;&gt;
+            &lt;img src=&#34;http://localhost:1313/images/01-the-wedding-at-cana/2.png&#34; alt=&#34;2.png&#34; onclick=&#34;toggleFullscreen(&#39;c24e436f&#39;)&#34;&gt;
+            &lt;div class=&#34;caption&#34;&gt;2 / 2&lt;/div&gt;
+        &lt;/div&gt;
+        
+    &lt;/div&gt;
+
+    &lt;a class=&#34;prev&#34; onclick=&#34;moveSlide(-1, &#39;c24e436f&#39;)&#34;&gt;❮&lt;/a&gt;
+    &lt;a class=&#34;next&#34; onclick=&#34;moveSlide(1, &#39;c24e436f&#39;)&#34;&gt;❯&lt;/a&gt;
+    &lt;button class=&#34;fullscreen-btn&#34; onclick=&#34;toggleFullscreen(&#39;c24e436f&#39;)&#34;&gt;⛶&lt;/button&gt;
+
+    &lt;div class=&#34;dots-container&#34;&gt;
+        
+        &lt;span class=&#34;dot&#34; onclick=&#34;currentSlide( 0 , &#39;c24e436f&#39;)&#34;&gt;&lt;/span&gt;
+        
+        &lt;span class=&#34;dot&#34; onclick=&#34;currentSlide( 1 , &#39;c24e436f&#39;)&#34;&gt;&lt;/span&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+    .slideshow-container {
+        position: relative;
+        max-width: 100%;
+        margin: auto;
+        overflow: hidden;
+        background: #000;
+    }
+
+     
+    .slideshow-container.fullscreen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 9999;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .slideshow-container.fullscreen .slides-wrapper {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .slide {
+        display: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    .fade {
+        animation-name: fade;
+        animation-duration: 0.5s;
+    }
+
+    .slide img {
+        width: 100%;
+        max-height: 80vh;
+        object-fit: contain;
+        cursor: pointer;
+    }
+
+     
+    .slideshow-container.fullscreen .slide img {
+        max-height: 100vh;
+        width: auto;
+        max-width: 100%;
+    }
+
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        background-color: rgba(0, 0, 0, 0.3);
+        z-index: 10000;
+         
+    }
+
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .fullscreen-btn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 20px;
+        border-radius: 4px;
+        z-index: 10001;
+    }
+
+    .fullscreen-btn:hover {
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    .caption {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 40px;
+         
+        width: 100%;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    .dots-container {
+        text-align: center;
+        padding: 10px;
+        background: #222;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .dot {
+        cursor: pointer;
+        height: 10px;
+        width: 10px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .dot.active,
+    .dot:hover {
+        background-color: #717171;
+    }
+
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+&lt;/style&gt;
+
+&lt;script&gt;
+    (function () {
+        if (!window.slideshowData) {
+            window.slideshowData = {};
+            window.activeSlideshow = null;
+        }
+
+        
+        window.slideshowData[&#39;c24e436f&#39;] = 0;
+
+        if (typeof window.moveSlide === &#39;undefined&#39;) {
+            window.moveSlide = function (n, id) {
+                showSlides(window.slideshowData[id] += n, id);
+            }
+
+            window.currentSlide = function (n, id) {
+                showSlides(window.slideshowData[id] = n, id);
+            }
+
+            window.toggleFullscreen = function (id) {
+                const el = document.getElementById(&#39;slideshow-&#39; + id);
+                if (el.classList.contains(&#39;fullscreen&#39;)) {
+                    el.classList.remove(&#39;fullscreen&#39;);
+                    window.activeSlideshow = null;
+                } else {
+                    el.classList.add(&#39;fullscreen&#39;);
+                    window.activeSlideshow = id;
+                }
+            }
+
+            window.showSlides = function (n, id) {
+                let slides = document.querySelectorAll(`#slideshow-${id} .slide`);
+                let dots = document.querySelector(`#slideshow-${id} .dots-container`).querySelectorAll(&#39;.dot&#39;);
+
+                if (n &gt;= slides.length) { window.slideshowData[id] = 0 }
+                if (n &lt; 0) { window.slideshowData[id] = slides.length - 1 }
+
+                
+                let current = window.slideshowData[id];
+
+                slides.forEach(slide =&gt; slide.style.display = &#34;none&#34;);
+                dots.forEach(dot =&gt; dot.classList.remove(&#34;active&#34;));
+
+                if (slides[current]) {
+                    slides[current].style.display = &#34;block&#34;;
+                    slides[current].classList.add(&#34;fade&#34;);
+                }
+                if (dots[current]) {
+                    dots[current].classList.add(&#34;active&#34;);
+                }
+            }
+
+            
+            document.addEventListener(&#39;keydown&#39;, function (e) {
+                if (!window.activeSlideshow) return;
+
+                if (e.key === &#34;ArrowLeft&#34;) {
+                    window.moveSlide(-1, window.activeSlideshow);
+                } else if (e.key === &#34;ArrowRight&#34;) {
+                    window.moveSlide(1, window.activeSlideshow);
+                } else if (e.key === &#34;Escape&#34;) {
+                    window.toggleFullscreen(window.activeSlideshow);
+                }
+            });
+        }
+
+        
+        setTimeout(() =&gt; {
+            window.showSlides(0, &#39;c24e436f&#39;);
+        }, 10);
+    })();
+&lt;/script&gt;
+&lt;p&gt;The afternoon sun cast long shadows across the narrow streets of Cana as Mary made her way through the bustling village. The sounds of celebration already filled the air - tambourines jingling, voices raised in song, and the excited chatter of guests arriving for the wedding feast. She smiled, remembering her own wedding celebrations so many years ago. But today, her thoughts were primarily on her son, Jesus, who had recently begun gathering followers around him. She had watched with quiet pride as these men - fishermen, tax collectors, ordinary people - were drawn to his extraordinary presence.&lt;/p&gt;
 &lt;p&gt;As she approached the home where the celebrations would take place, she could see Jesus standing in conversation with several of his new disciples. John, the youngest among them, listened with rapt attention while Peter&amp;rsquo;s brother Andrew gestured animatedly about something. Her son&amp;rsquo;s face bore that familiar expression of patient wisdom that still sometimes caught her off guard - when had her little boy become this man who spoke with such authority?&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;My son,&amp;rdquo; she called out softly as she drew near. Jesus turned, his face brightening at the sight of her. &amp;ldquo;Mother,&amp;rdquo; he replied warmly, embracing her. The disciples stepped back respectfully, though she could see their curiosity about this interaction between their master and his mother.&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;The bride&amp;rsquo;s family has outdone themselves with the preparations,&amp;rdquo; Mary commented as they walked together toward the courtyard where the feast would be held. She had helped with some of the arrangements herself, as she knew both families well. &amp;ldquo;Though I worry they may have underestimated how many would come to celebrate.&amp;rdquo;&lt;/p&gt;
@@ -70,10 +334,10 @@
     
     <item>
       <title>Dinner with Tax Collector</title>
-      <link>http://localhost:1313/discourses/docs/02-dinner-with-tax-collector/</link>
+      <link>http://localhost:1313/docs/02-dinner-with-tax-collector/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/02-dinner-with-tax-collector/</guid>
+      <guid>http://localhost:1313/docs/02-dinner-with-tax-collector/</guid>
       <description>
         
         
@@ -131,10 +395,10 @@
     
     <item>
       <title>The Holy Fear</title>
-      <link>http://localhost:1313/discourses/docs/03-the-holy-fear/</link>
+      <link>http://localhost:1313/docs/03-the-holy-fear/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/03-the-holy-fear/</guid>
+      <guid>http://localhost:1313/docs/03-the-holy-fear/</guid>
       <description>
         
         
@@ -187,10 +451,10 @@
     
     <item>
       <title>The Unforgivable Sin</title>
-      <link>http://localhost:1313/discourses/docs/04-the-unforgivable-sin/</link>
+      <link>http://localhost:1313/docs/04-the-unforgivable-sin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/04-the-unforgivable-sin/</guid>
+      <guid>http://localhost:1313/docs/04-the-unforgivable-sin/</guid>
       <description>
         
         
@@ -251,10 +515,10 @@
     
     <item>
       <title>The Hypocrites at the Temple</title>
-      <link>http://localhost:1313/discourses/docs/05-the-hypocrites-at-the-temple/</link>
+      <link>http://localhost:1313/docs/05-the-hypocrites-at-the-temple/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/05-the-hypocrites-at-the-temple/</guid>
+      <guid>http://localhost:1313/docs/05-the-hypocrites-at-the-temple/</guid>
       <description>
         
         
@@ -322,10 +586,10 @@
     
     <item>
       <title>The Troubles of Nicodemus</title>
-      <link>http://localhost:1313/discourses/docs/06-the-troubles-of-nicodemus/</link>
+      <link>http://localhost:1313/docs/06-the-troubles-of-nicodemus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/06-the-troubles-of-nicodemus/</guid>
+      <guid>http://localhost:1313/docs/06-the-troubles-of-nicodemus/</guid>
       <description>
         
         
@@ -397,10 +661,10 @@
     
     <item>
       <title>Joseph of Arimathea</title>
-      <link>http://localhost:1313/discourses/docs/07-joseph-of-arimathea/</link>
+      <link>http://localhost:1313/docs/07-joseph-of-arimathea/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/07-joseph-of-arimathea/</guid>
+      <guid>http://localhost:1313/docs/07-joseph-of-arimathea/</guid>
       <description>
         
         
@@ -469,10 +733,10 @@
     
     <item>
       <title>The Children of the Devil</title>
-      <link>http://localhost:1313/discourses/docs/08-the-children-of-the-devil/</link>
+      <link>http://localhost:1313/docs/08-the-children-of-the-devil/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/08-the-children-of-the-devil/</guid>
+      <guid>http://localhost:1313/docs/08-the-children-of-the-devil/</guid>
       <description>
         
         
@@ -544,10 +808,10 @@
     
     <item>
       <title>The Woman at the Well</title>
-      <link>http://localhost:1313/discourses/docs/09-the-woman-at-the-well/</link>
+      <link>http://localhost:1313/docs/09-the-woman-at-the-well/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/09-the-woman-at-the-well/</guid>
+      <guid>http://localhost:1313/docs/09-the-woman-at-the-well/</guid>
       <description>
         
         
@@ -602,10 +866,10 @@
     
     <item>
       <title>Two Days in Samaria</title>
-      <link>http://localhost:1313/discourses/docs/10-two-days-at-samaria/</link>
+      <link>http://localhost:1313/docs/10-two-days-at-samaria/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/10-two-days-at-samaria/</guid>
+      <guid>http://localhost:1313/docs/10-two-days-at-samaria/</guid>
       <description>
         
         
@@ -666,10 +930,10 @@
     
     <item>
       <title>Enoch, Elijah and Melchizedek</title>
-      <link>http://localhost:1313/discourses/docs/11-enoch-elijah-melchizedek/</link>
+      <link>http://localhost:1313/docs/11-enoch-elijah-melchizedek/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/11-enoch-elijah-melchizedek/</guid>
+      <guid>http://localhost:1313/docs/11-enoch-elijah-melchizedek/</guid>
       <description>
         
         
@@ -723,10 +987,10 @@
     
     <item>
       <title>Demons at Gadarene Shore</title>
-      <link>http://localhost:1313/discourses/docs/12-demons-at-gadarene-shore/</link>
+      <link>http://localhost:1313/docs/12-demons-at-gadarene-shore/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/12-demons-at-gadarene-shore/</guid>
+      <guid>http://localhost:1313/docs/12-demons-at-gadarene-shore/</guid>
       <description>
         
         
@@ -782,10 +1046,10 @@
     
     <item>
       <title>The Fulfillment of Prophecy</title>
-      <link>http://localhost:1313/discourses/docs/13-the-fulfillment-of-prophecy/</link>
+      <link>http://localhost:1313/docs/13-the-fulfillment-of-prophecy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/13-the-fulfillment-of-prophecy/</guid>
+      <guid>http://localhost:1313/docs/13-the-fulfillment-of-prophecy/</guid>
       <description>
         
         
@@ -853,10 +1117,10 @@
     
     <item>
       <title>The Messiah in the Synagogue</title>
-      <link>http://localhost:1313/discourses/docs/14-the-messiah-in-the-synagogue/</link>
+      <link>http://localhost:1313/docs/14-the-messiah-in-the-synagogue/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/14-the-messiah-in-the-synagogue/</guid>
+      <guid>http://localhost:1313/docs/14-the-messiah-in-the-synagogue/</guid>
       <description>
         
         
@@ -929,10 +1193,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>The Unrepentant Cities</title>
-      <link>http://localhost:1313/discourses/docs/15-the-unrepentant-cities/</link>
+      <link>http://localhost:1313/docs/15-the-unrepentant-cities/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/15-the-unrepentant-cities/</guid>
+      <guid>http://localhost:1313/docs/15-the-unrepentant-cities/</guid>
       <description>
         
         
@@ -994,10 +1258,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>The Anointing at Bethany</title>
-      <link>http://localhost:1313/discourses/docs/16-the-anointing-at-bethany/</link>
+      <link>http://localhost:1313/docs/16-the-anointing-at-bethany/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/16-the-anointing-at-bethany/</guid>
+      <guid>http://localhost:1313/docs/16-the-anointing-at-bethany/</guid>
       <description>
         
         
@@ -1064,10 +1328,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>The Transfiguration</title>
-      <link>http://localhost:1313/discourses/docs/17-the-transfiguration/</link>
+      <link>http://localhost:1313/docs/17-the-transfiguration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/17-the-transfiguration/</guid>
+      <guid>http://localhost:1313/docs/17-the-transfiguration/</guid>
       <description>
         
         
@@ -1138,10 +1402,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>The Last Supper</title>
-      <link>http://localhost:1313/discourses/docs/18-the-last-supper/</link>
+      <link>http://localhost:1313/docs/18-the-last-supper/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/18-the-last-supper/</guid>
+      <guid>http://localhost:1313/docs/18-the-last-supper/</guid>
       <description>
         
         
@@ -1220,10 +1484,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>Reflections on Job</title>
-      <link>http://localhost:1313/discourses/docs/19-reflections-on-job/</link>
+      <link>http://localhost:1313/docs/19-reflections-on-job/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/19-reflections-on-job/</guid>
+      <guid>http://localhost:1313/docs/19-reflections-on-job/</guid>
       <description>
         
         
@@ -1287,10 +1551,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>The Kingdom of Heaven</title>
-      <link>http://localhost:1313/discourses/docs/20-the-kingdom-of-heaven/</link>
+      <link>http://localhost:1313/docs/20-the-kingdom-of-heaven/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/20-the-kingdom-of-heaven/</guid>
+      <guid>http://localhost:1313/docs/20-the-kingdom-of-heaven/</guid>
       <description>
         
         
@@ -1359,10 +1623,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>Nature of God and Salvation</title>
-      <link>http://localhost:1313/discourses/docs/21-nature-of-god-and-salvation/</link>
+      <link>http://localhost:1313/docs/21-nature-of-god-and-salvation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/21-nature-of-god-and-salvation/</guid>
+      <guid>http://localhost:1313/docs/21-nature-of-god-and-salvation/</guid>
       <description>
         
         
@@ -1427,10 +1691,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>The Bread of Life</title>
-      <link>http://localhost:1313/discourses/docs/22-the-bread-of-life/</link>
+      <link>http://localhost:1313/docs/22-the-bread-of-life/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/22-the-bread-of-life/</guid>
+      <guid>http://localhost:1313/docs/22-the-bread-of-life/</guid>
       <description>
         
         
@@ -1483,10 +1747,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>Jesus&#39; Appearance to Disciples</title>
-      <link>http://localhost:1313/discourses/docs/23-jesus-appearance-to-disciples/</link>
+      <link>http://localhost:1313/docs/23-jesus-appearance-to-disciples/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/23-jesus-appearance-to-disciples/</guid>
+      <guid>http://localhost:1313/docs/23-jesus-appearance-to-disciples/</guid>
       <description>
         
         
@@ -1559,10 +1823,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>The End Times</title>
-      <link>http://localhost:1313/discourses/docs/24-the-end-times/</link>
+      <link>http://localhost:1313/docs/24-the-end-times/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/24-the-end-times/</guid>
+      <guid>http://localhost:1313/docs/24-the-end-times/</guid>
       <description>
         
         
@@ -1629,10 +1893,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>Wolves in Sheep’s Clothing</title>
-      <link>http://localhost:1313/discourses/docs/25-wolves-in-sheep-clothing/</link>
+      <link>http://localhost:1313/docs/25-wolves-in-sheep-clothing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/25-wolves-in-sheep-clothing/</guid>
+      <guid>http://localhost:1313/docs/25-wolves-in-sheep-clothing/</guid>
       <description>
         
         
@@ -1721,10 +1985,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>The Deceivers from Within</title>
-      <link>http://localhost:1313/discourses/docs/26-the-deceivers-from-within/</link>
+      <link>http://localhost:1313/docs/26-the-deceivers-from-within/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/26-the-deceivers-from-within/</guid>
+      <guid>http://localhost:1313/docs/26-the-deceivers-from-within/</guid>
       <description>
         
         
@@ -1781,10 +2045,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>The Teachings of Demons</title>
-      <link>http://localhost:1313/discourses/docs/27-the-teachings-of-demons/</link>
+      <link>http://localhost:1313/docs/27-the-teachings-of-demons/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/27-the-teachings-of-demons/</guid>
+      <guid>http://localhost:1313/docs/27-the-teachings-of-demons/</guid>
       <description>
         
         
@@ -1861,10 +2125,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>The Unwritten Words</title>
-      <link>http://localhost:1313/discourses/docs/28-the-unwritten-words/</link>
+      <link>http://localhost:1313/docs/28-the-unwritten-words/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/28-the-unwritten-words/</guid>
+      <guid>http://localhost:1313/docs/28-the-unwritten-words/</guid>
       <description>
         
         
@@ -1930,10 +2194,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>The False Teachers</title>
-      <link>http://localhost:1313/discourses/docs/29-the-false-teachers/</link>
+      <link>http://localhost:1313/docs/29-the-false-teachers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/29-the-false-teachers/</guid>
+      <guid>http://localhost:1313/docs/29-the-false-teachers/</guid>
       <description>
         
         
@@ -1999,10 +2263,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>The Ascension of Jesus</title>
-      <link>http://localhost:1313/discourses/docs/30-the-ascension-of-jesus/</link>
+      <link>http://localhost:1313/docs/30-the-ascension-of-jesus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/30-the-ascension-of-jesus/</guid>
+      <guid>http://localhost:1313/docs/30-the-ascension-of-jesus/</guid>
       <description>
         
         
@@ -2082,10 +2346,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>The New Covenant</title>
-      <link>http://localhost:1313/discourses/docs/31-the-new-covenant/</link>
+      <link>http://localhost:1313/docs/31-the-new-covenant/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/31-the-new-covenant/</guid>
+      <guid>http://localhost:1313/docs/31-the-new-covenant/</guid>
       <description>
         
         
@@ -2146,10 +2410,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>The Debate at Athens</title>
-      <link>http://localhost:1313/discourses/docs/32-the-debate-at-athens/</link>
+      <link>http://localhost:1313/docs/32-the-debate-at-athens/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/32-the-debate-at-athens/</guid>
+      <guid>http://localhost:1313/docs/32-the-debate-at-athens/</guid>
       <description>
         
         
@@ -2220,10 +2484,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>On the Nature of Evil</title>
-      <link>http://localhost:1313/discourses/docs/33-on-the-nature-of-evil/</link>
+      <link>http://localhost:1313/docs/33-on-the-nature-of-evil/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/33-on-the-nature-of-evil/</guid>
+      <guid>http://localhost:1313/docs/33-on-the-nature-of-evil/</guid>
       <description>
         
         
@@ -2266,10 +2530,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>Faith versus Works</title>
-      <link>http://localhost:1313/discourses/docs/34-faith-versus-works/</link>
+      <link>http://localhost:1313/docs/34-faith-versus-works/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/34-faith-versus-works/</guid>
+      <guid>http://localhost:1313/docs/34-faith-versus-works/</guid>
       <description>
         
         
@@ -2336,10 +2600,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>The Jerusalem Council</title>
-      <link>http://localhost:1313/discourses/docs/35-the-jerusalem-council/</link>
+      <link>http://localhost:1313/docs/35-the-jerusalem-council/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/35-the-jerusalem-council/</guid>
+      <guid>http://localhost:1313/docs/35-the-jerusalem-council/</guid>
       <description>
         
         
@@ -2376,10 +2640,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>Peter, James and John</title>
-      <link>http://localhost:1313/discourses/docs/36-peter-james-and-john/</link>
+      <link>http://localhost:1313/docs/36-peter-james-and-john/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/36-peter-james-and-john/</guid>
+      <guid>http://localhost:1313/docs/36-peter-james-and-john/</guid>
       <description>
         
         
@@ -2451,10 +2715,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>Crisis of Jewish Faith</title>
-      <link>http://localhost:1313/discourses/docs/37-crisis-of-jewish-faith/</link>
+      <link>http://localhost:1313/docs/37-crisis-of-jewish-faith/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/37-crisis-of-jewish-faith/</guid>
+      <guid>http://localhost:1313/docs/37-crisis-of-jewish-faith/</guid>
       <description>
         
         
@@ -2526,10 +2790,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>The Conversion of Cornelius</title>
-      <link>http://localhost:1313/discourses/docs/38-the-conversion-of-cornelius/</link>
+      <link>http://localhost:1313/docs/38-the-conversion-of-cornelius/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/38-the-conversion-of-cornelius/</guid>
+      <guid>http://localhost:1313/docs/38-the-conversion-of-cornelius/</guid>
       <description>
         
         
@@ -2592,10 +2856,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>The Centurion’s Faith</title>
-      <link>http://localhost:1313/discourses/docs/39-the-centurions-faith/</link>
+      <link>http://localhost:1313/docs/39-the-centurions-faith/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/39-the-centurions-faith/</guid>
+      <guid>http://localhost:1313/docs/39-the-centurions-faith/</guid>
       <description>
         
         
@@ -2650,10 +2914,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>The Law Within (Part 1)</title>
-      <link>http://localhost:1313/discourses/docs/40-the-law-within-part1/</link>
+      <link>http://localhost:1313/docs/40-the-law-within-part1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/40-the-law-within-part1/</guid>
+      <guid>http://localhost:1313/docs/40-the-law-within-part1/</guid>
       <description>
         
         
@@ -2718,10 +2982,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>The Law Within (Part 2)</title>
-      <link>http://localhost:1313/discourses/docs/41-the-law-within-part2/</link>
+      <link>http://localhost:1313/docs/41-the-law-within-part2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/41-the-law-within-part2/</guid>
+      <guid>http://localhost:1313/docs/41-the-law-within-part2/</guid>
       <description>
         
         
@@ -2806,10 +3070,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>Peter, James and John on Paul</title>
-      <link>http://localhost:1313/discourses/docs/42-peter-james-and-john-on-paul/</link>
+      <link>http://localhost:1313/docs/42-peter-james-and-john-on-paul/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/42-peter-james-and-john-on-paul/</guid>
+      <guid>http://localhost:1313/docs/42-peter-james-and-john-on-paul/</guid>
       <description>
         
         
@@ -2876,10 +3140,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>Ananias and Sapphira</title>
-      <link>http://localhost:1313/discourses/docs/43-ananias-and-sapphira/</link>
+      <link>http://localhost:1313/docs/43-ananias-and-sapphira/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/43-ananias-and-sapphira/</guid>
+      <guid>http://localhost:1313/docs/43-ananias-and-sapphira/</guid>
       <description>
         
         
@@ -2967,10 +3231,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>The Counsel of Gamaliel</title>
-      <link>http://localhost:1313/discourses/docs/44-the-counsel-of-gamaliel/</link>
+      <link>http://localhost:1313/docs/44-the-counsel-of-gamaliel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/44-the-counsel-of-gamaliel/</guid>
+      <guid>http://localhost:1313/docs/44-the-counsel-of-gamaliel/</guid>
       <description>
         
         
@@ -3039,10 +3303,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>The Seven Deacons</title>
-      <link>http://localhost:1313/discourses/docs/45-the-seven-deacons/</link>
+      <link>http://localhost:1313/docs/45-the-seven-deacons/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/45-the-seven-deacons/</guid>
+      <guid>http://localhost:1313/docs/45-the-seven-deacons/</guid>
       <description>
         
         
@@ -3105,10 +3369,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>The Price of Faith</title>
-      <link>http://localhost:1313/discourses/docs/46-the-price-of-faith/</link>
+      <link>http://localhost:1313/docs/46-the-price-of-faith/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/46-the-price-of-faith/</guid>
+      <guid>http://localhost:1313/docs/46-the-price-of-faith/</guid>
       <description>
         
         
@@ -3169,10 +3433,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>Priscilla and Aquila</title>
-      <link>http://localhost:1313/discourses/docs/47-priscilla-and-aquila/</link>
+      <link>http://localhost:1313/docs/47-priscilla-and-aquila/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/47-priscilla-and-aquila/</guid>
+      <guid>http://localhost:1313/docs/47-priscilla-and-aquila/</guid>
       <description>
         
         
@@ -3247,10 +3511,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>Evil Does not Reign</title>
-      <link>http://localhost:1313/discourses/docs/48-evil-does-not-reign/</link>
+      <link>http://localhost:1313/docs/48-evil-does-not-reign/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/48-evil-does-not-reign/</guid>
+      <guid>http://localhost:1313/docs/48-evil-does-not-reign/</guid>
       <description>
         
         
@@ -3310,10 +3574,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>Paul’s Hardships and Struggles</title>
-      <link>http://localhost:1313/discourses/docs/49-pauls-hardships-and-struggles/</link>
+      <link>http://localhost:1313/docs/49-pauls-hardships-and-struggles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/49-pauls-hardships-and-struggles/</guid>
+      <guid>http://localhost:1313/docs/49-pauls-hardships-and-struggles/</guid>
       <description>
         
         
@@ -3385,10 +3649,10 @@ to proclaim the year of the Lord’s favor.”&lt;/p&gt;
     
     <item>
       <title>The Debate in Jerusalem</title>
-      <link>http://localhost:1313/discourses/docs/50-the-debate-in-jerusalem/</link>
+      <link>http://localhost:1313/docs/50-the-debate-in-jerusalem/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/discourses/docs/50-the-debate-in-jerusalem/</guid>
+      <guid>http://localhost:1313/docs/50-the-debate-in-jerusalem/</guid>
       <description>
         
         

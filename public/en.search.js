@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // 
 
 (function () {
-  const searchDataURL = '/discourses/en.search-data.json';
+  const searchDataURL = '/en.search-data.json';
 
   const inputElements = document.querySelectorAll('.search-input');
   for (const el of inputElements) {
@@ -192,7 +192,7 @@ document.addEventListener("DOMContentLoaded", function () {
    * @returns {Promise<void>} A promise that resolves when the index is preloaded.
    */
   async function preloadIndex() {
-    const tokenize = 'forward';
+    const tokenize = 'full';
     window.pageIndex = new FlexSearch.Document({
       tokenize,
       cache: 100,
