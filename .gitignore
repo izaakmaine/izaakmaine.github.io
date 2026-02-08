@@ -1,0 +1,11 @@
+# Hugo build output (do NOT commit)
+public/
+resources/
+.hugo_build.lock
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
