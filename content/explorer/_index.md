@@ -1,0 +1,16 @@
+---
+title: Age of Exploration
+weight: 1
+---
+
+There's a medium we've overlooked, dismissed even, that deserves our full attention. Comics — those peculiar marriages of word and image — offer something rare in our overstimulated age: depth without demanding we sacrifice hours to streaming queues or surrender our bandwidth to endless buffering.
+
+Think about it. A graphic novel sits comfortably between a novel's richness and a film's visual punch, yet asks far less of us. No internet connection required. No autoplay trailers. Just you, the page, and a story unfolding in that distinctive rhythm only sequential art can provide.
+
+What makes comics special isn't just their efficiency, though that's part of their charm. It's how they compress history into digestible narratives without diluting its complexity. Want to understand the moral quagmire of colonialism? The human cost of exploration? The philosophical debates that shaped civilizations? Comics can take you there with an intimacy that textbooks rarely achieve and documentaries often miss.
+
+The panels guide your eye, control your pace, let you linger on a expression or rush through action. Speech bubbles capture dialect and tone that prose describes but can't quite embody. And unlike video, you control the experience—pause mid-scene, flip back to catch a detail, or simply set it down when life interrupts.
+
+We're living through what some call a golden age of comics—serious works grappling with war, displacement, identity, and injustice. Artists are excavating forgotten histories and presenting them in formats that make the past feel immediate, even urgent. These aren't escapist fantasies (though there's room for those too). They're windows into moments that shaped our world, rendered in a medium perfectly suited to show us both the grand sweep and the intimate detail.
+
+Perhaps it's time we stopped treating comics as guilty pleasures and recognized them for what they are: one of our most versatile tools for understanding where we've been and imagining where we might go.
