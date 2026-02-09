@@ -1,8 +1,8 @@
-# Discourses of Christ and the Apostles
+# Izaak Maine Publishing
 
-Does not accept PRs, feel free to fork.
+All Rights Reserved.
 
-## License
+## Copyright
 
-[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+© Izaak Maine
 
