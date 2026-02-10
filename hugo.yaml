@@ -8,8 +8,20 @@ module:
 
 menu:
   main:
+    - name: Home
+      pageRef: /
+      weight: 10
+    - name: Discourses
+      pageRef: /discourses
+      weight: 20
+    - name: Explorers
+      pageRef: /explorer
+      weight: 30
+    - name: Messengers
+      pageRef: /messengers
+      weight: 40
     - name: Search
-      weight: 1
+      weight: 50
       params:
         type: search
 
@@ -36,7 +48,8 @@ params:
     width: full  
     
   navbar:
-    displayTitle: true    
+    displayTitle: true
+    displayBreadcrumbs: true    
     
   footer:
     displayCopyright: true

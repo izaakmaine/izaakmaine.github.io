@@ -1,6 +1,8 @@
 ---
 title: Discourse of Christ and the Apostles
 weight: 1
+cascade:
+  type: docs
 ---
 
 In the gathering dusk of a Galilean evening, thirteen men shared bread around a humble wooden table. Their hands, weathered from years of fishing nets and carpentry tools, broke the simple fare as they had done countless times before. Yet this night was different. The words spoken here would echo through millennia, though those present could scarcely grasp their weight.
