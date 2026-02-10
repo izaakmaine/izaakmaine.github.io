@@ -1,6 +1,8 @@
 ---
 title: The Three Messengers
 weight: 1
+cascade:
+  type: docs
 ---
 
 And it came to pass in those days that a certain King ruled over all the earth, and His kingdom was vast and His mercy enduring. But the people had forgotten His ways, and they wandered in darkness, each man following the way that seemed right in his own eyes.

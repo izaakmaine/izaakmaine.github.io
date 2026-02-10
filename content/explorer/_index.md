@@ -1,6 +1,8 @@
 ---
 title: Age of Exploration
 weight: 1
+cascade:
+  type: docs
 ---
 
 There's a medium we've overlooked, dismissed even, that deserves our full attention. Comics — those peculiar marriages of word and image — offer something rare in our overstimulated age: depth without demanding we sacrifice hours to streaming queues or surrender our bandwidth to endless buffering.
