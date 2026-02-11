@@ -1,20 +1,40 @@
 {{ $seed := delimit (shuffle (seq 1 9)) "" }}
 {{ $id := cond (isset .Params "id") (.Get "id") (substr (md5 $seed) 0 8) }}
 {{ $path := .Get "path" }}
-{{ $files := readDir (print "static/" $path) }}
+
+{{ $cdnEnabled := site.Params.cdn.enabled | default false }}
+{{ $cdnUrl := site.Params.cdn.url | default "" }}
 {{ $images := slice }}
-{{ range $files }}
-{{ if or (strings.HasSuffix .Name ".jpg") (strings.HasSuffix .Name ".jpeg") (strings.HasSuffix .Name ".png")
-(strings.HasSuffix .Name ".webp") }}
-{{ $images = $images | append . }}
-{{ end }}
+
+{{/* Derive gallery key from path (e.g., "images/magellan" -> "magellan") */}}
+{{ $galleryKey := path.Base $path }}
+
+{{/* Check for a data manifest: site.Data.slideshows.<galleryKey> */}}
+{{ $manifest := index site.Data.slideshows $galleryKey }}
+
+{{ if and $cdnEnabled $manifest }}
+  {{/* === S3/CDN MODE === */}}
+  {{/* URL: https://izaakmaine-assets.t3.storage.dev/<gallery>/<filename> */}}
+  {{ range $manifest }}
+    {{ $imgUrl := printf "%s/%s/%s" $cdnUrl $galleryKey . }}
+    {{ $images = $images | append (dict "Name" . "URL" $imgUrl) }}
+  {{ end }}
+{{ else }}
+  {{/* === LOCAL MODE (fallback) === */}}
+  {{ $files := readDir (print "static/" $path) }}
+  {{ range $files }}
+    {{ if or (strings.HasSuffix .Name ".jpg") (strings.HasSuffix .Name ".jpeg")
+            (strings.HasSuffix .Name ".png") (strings.HasSuffix .Name ".webp") }}
+      {{ $images = $images | append (dict "Name" .Name "URL" (printf "/%s/%s" $path .Name)) }}
+    {{ end }}
+  {{ end }}
 {{ end }}
 
 <div class="slideshow-container" id="slideshow-{{ $id }}">
     <div class="slides-wrapper">
         {{ range $index, $image := $images }}
         <div class="slide">
-            <img src="/{{ $path }}/{{ $image.Name }}" alt="{{ $image.Name }}" onclick="toggleFullscreen('{{ $id }}')">
+            <img src="{{ $image.URL }}" alt="{{ $image.Name }}" onclick="toggleFullscreen('{{ $id }}')">
             <div class="caption">{{ $index | add 1 }} / {{ len $images }}</div>
         </div>
         {{ end }}

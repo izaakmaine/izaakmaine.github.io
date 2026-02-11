@@ -53,7 +53,11 @@ params:
     
   footer:
     displayCopyright: true
-    displayPoweredBy: false     
+    displayPoweredBy: false
+    
+  cdn:
+    enabled: true
+    url: "https://izaakmaine-assets.t3.storage.dev"        
     
 services:
   googleAnalytics:

@@ -1,5 +1,7 @@
 # Hugo build output (do NOT commit)
+.env
 public/
+static/
 resources/
 .hugo_build.lock
 
