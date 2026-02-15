@@ -16,9 +16,9 @@
   </url><url>
     <loc>http://localhost:1313/history/01-columbus-pitch/</loc>
   </url><url>
-    <loc>http://localhost:1313/messengers/</loc>
+    <loc>http://localhost:1313/bible/01-apostolic_christianity_restored/</loc>
   </url><url>
-    <loc>http://localhost:1313/bible/01-lucifer/</loc>
+    <loc>http://localhost:1313/messengers/</loc>
   </url><url>
     <loc>http://localhost:1313/discourses/01-the-wedding-at-cana/</loc>
   </url><url>
@@ -27,6 +27,8 @@
     <loc>http://localhost:1313/discourses/02-dinner-with-tax-collector/</loc>
   </url><url>
     <loc>http://localhost:1313/messengers/02-luther/</loc>
+  </url><url>
+    <loc>http://localhost:1313/bible/02-lucifer/</loc>
   </url><url>
     <loc>http://localhost:1313/messengers/03-manalo/</loc>
   </url><url>
