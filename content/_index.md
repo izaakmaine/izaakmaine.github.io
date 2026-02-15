@@ -1,5 +1,8 @@
 There's a medium we've overlooked, dismissed even, that deserves our full attention. Comics — those peculiar marriages of word and image — offer something rare in our overstimulated age: depth without demanding we sacrifice hours to streaming queues or surrender our bandwidth to endless buffering.
 
+![Homepage](https://izaakmaine-assets.t3.storage.dev/misc/homepage.png)
+
+
 Think about it. A graphic novel sits comfortably between a novel's richness and a film's visual punch, yet asks far less of us. No internet connection required. No autoplay trailers. Just you, the page, and a story unfolding in that distinctive rhythm only sequential art can provide.
 
 What makes comics special isn't just their efficiency, though that's part of their charm. It's how they compress history into digestible narratives without diluting its complexity. Want to understand the moral quagmire of colonialism? The human cost of exploration? The philosophical debates that shaped civilizations? Comics can take you there with an intimacy that textbooks rarely achieve and documentaries often miss.

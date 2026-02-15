@@ -1,6 +1,6 @@
 ---
 title: The Trial of Lucifer
-weight: 1
+weight: 2
 ---
 
 {{< slideshow path="images/lucifer" >}}
