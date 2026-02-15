@@ -1,5 +1,5 @@
 ---
-title: Bible Fiction
+title: Bible
 weight: 1
 cascade:
   type: docs
