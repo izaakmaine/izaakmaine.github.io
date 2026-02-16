@@ -12,6 +12,8 @@ weight: 1
 
 This document presents the unassailable truths of apostolic Christianity as preserved and restored through the Church of Christ (Iglesia ni Cristo). Building from the foundational axioms of Scripture alone, we demonstrate how the original faith taught by Christ and His apostles was corrupted through the Great Apostasy, and how God has restored the true Church in these last days.
 
+{{< slideshow path="images/restore" >}}
+
 ![Homepage](https://izaakmaine-assets.t3.storage.dev/inc/Church-of-Christ.png)
 
 We proceed systematically:

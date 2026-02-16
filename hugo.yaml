@@ -1,6 +1,6 @@
 baseURL: https://izaakmaine.github.io/
 languageCode: en-us
-title: Izaak Maine Publishing
+title: Izaak Maine
 
 module:
   imports:
