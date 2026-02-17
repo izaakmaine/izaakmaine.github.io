@@ -82,8 +82,28 @@ module.exports = {
     },
     extend: {
       colors: {
-        dark: '#111'
-      }
+        dark: {
+          DEFAULT: '#0a0a0f',
+          secondary: '#12121a',
+          tertiary: '#1a1a28',
+        },
+        accent: {
+          DEFAULT: '#4fc3f7',
+          hover: '#29b6f6',
+          glow: 'rgba(79, 195, 247, 0.2)',
+        },
+        glass: {
+          DEFAULT: 'rgba(18, 18, 26, 0.6)',
+          header: 'rgba(18, 18, 26, 0.8)',
+        },
+      },
+      backdropBlur: {
+        xs: '2px',
+      },
+      boxShadow: {
+        'glow': '0 0 20px rgba(79, 195, 247, 0.2)',
+        'glow-lg': '0 0 40px rgba(79, 195, 247, 0.3)',
+      },
     }
   },
   darkMode: ['class', 'html[class~="dark"]']
