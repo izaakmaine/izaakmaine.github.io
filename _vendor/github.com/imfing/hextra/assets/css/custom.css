@@ -258,10 +258,33 @@
 
 .dark .toc a {
   color: var(--text-secondary);
+  transition: color 0.2s ease;
 }
 
 .dark .toc a:hover {
   color: var(--accent);
+}
+
+/* Active/Selected TOC Link - Matches left sidebar active state */
+.dark .toc a:target,
+.dark .hextra-toc a:target {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* TOC link currently in view (via data attribute or scroll tracking) */
+.dark .toc a[data-active="true"],
+.dark .toc li.active > a,
+.dark .hextra-toc a[data-active="true"],
+.dark .hextra-toc li.active > a {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* Ensure higher specificity for hextra-toc links to override utility classes */
+.dark .hextra-toc a[data-active="true"] {
+  color: var(--accent) !important;
+  font-weight: 600 !important;
 }
 
 /* Dark Mode Breadcrumbs */
